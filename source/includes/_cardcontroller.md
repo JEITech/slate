@@ -356,7 +356,7 @@ This method is responsbile for executing all card effects.  These effects are al
 ```csharp
 private GameController GetGameController()
 {
-	GameController newController = GameObject.Find("controller").GetComponent<GameController> ();
+	GameController newController = GameObject.Find("Controller").GetComponent<GameController> ();
 	return newController;
 }
 ```
@@ -368,7 +368,7 @@ This method is used to find and return the [`gameController`](#card-controller-p
 ```csharp
 private PlayerController GetPlayerController()
 {
-	PlayerController newPlayerController = GameObject.Find(PhontonNetwork.NickName).GetComponent<PlayerController> ();
+	PlayerController newPlayerController = GameObject.Find(PhotonNetwork.NickName).GetComponent<PlayerController> ();
 	return newPlayerController;
 }
 ```

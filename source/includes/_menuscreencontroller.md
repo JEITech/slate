@@ -24,7 +24,7 @@ This method is used to make sure that for right now, only the multiplayer button
 private void DisableGameObjects()
 {
 	GameObject.Find("single").SetActive(false);
-	GameObject.Find("multi").SetActive(false)
+	GameObject.Find("multi").SetActive(false);
 	GameObject.Find("teehee").SetActive(false);
 }
 ```
